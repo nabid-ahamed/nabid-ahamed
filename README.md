@@ -26,3 +26,13 @@
 [![](https://visitcount.itsvg.in/api?id=nabid-ahamed&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+### ⚡ Recent GitHub Activity
+<br/>
+<a href="https://github.com/nabid-ahamed">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nabid-ahamed&bg_color=241f31&color=26a269&line=26a269&point=deddda&area=true&hide_border=true" />
+</a>
+<br/>
+<br>
+
+<h2 align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> Thanks for visiting my Github Profile. <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h2><br>
