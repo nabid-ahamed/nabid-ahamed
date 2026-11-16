@@ -1,60 +1,24 @@
 #!/usr/bin/env bash
-# Rebuilds the language pie chart between the LANGUAGES markers in README.md.
+# Redraws languages.svg (a donut chart of primary languages) and makes sure
+# README.md shows it between the LANGUAGES markers.
 # Counts the primary language of each public, non-fork repo owned by $OWNER.
 # Needs: gh (authenticated via GH_TOKEN), python3.
 set -euo pipefail
 
 OWNER="${OWNER:?set OWNER to the GitHub username}"
 README="${README:-README.md}"
+SVG="${SVG:-languages.svg}"
+here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-counts=$(gh api --paginate "users/${OWNER}/repos?per_page=100&type=owner" \
-  --jq '.[] | select(.fork == false and .language != null) | .language' |
-  sort | uniq -c | sort -k1,1nr -k2)
-
-if [ -z "$counts" ]; then
-  echo "No public repositories with a detected language; leaving README unchanged."
-  exit 0
-fi
-
-total=$(awk '{ s += $1 } END { print s }' <<<"$counts")
-
-chart_file=$(mktemp)
-{
-  echo "<p align=\"center\"><i>Primary language of my ${total} public repositories</i></p>"
-  echo
-  echo '```mermaid'
-  echo 'pie showData title Languages across my GitHub repos'
-  while read -r n lang; do
-    printf '    "%s" : %s\n' "${lang//\"/}" "$n"
-  done <<<"$counts"
-  echo '```'
-} >"$chart_file"
-
-python3 - "$README" "$chart_file" <<'PY'
-import sys
-
-readme_path, chart_path = sys.argv[1], sys.argv[2]
-start, end = "<!-- LANGUAGES:START -->", "<!-- LANGUAGES:END -->"
-
-text = open(readme_path, encoding="utf-8", newline="").read()
-chart = open(chart_path, encoding="utf-8").read().rstrip("\n")
-
-if start not in text or end not in text:
-    sys.exit(f"README is missing the {start} / {end} markers")
-
-# Keep the README's existing line endings (CRLF or LF).
-nl = "\r\n" if "\r\n" in text else "\n"
-chart = chart.replace("\n", nl)
-
-before = text[: text.index(start) + len(start)]
-after = text[text.index(end):]
-new_text = f"{before}{nl}{chart}{nl}{after}"
-
-if new_text != text:
-    open(readme_path, "w", encoding="utf-8", newline="").write(new_text)
-    print("README chart updated.")
-else:
-    print("README chart already up to date.")
-PY
-
-rm -f "$chart_file"
+# One JSON line per repo: {"name": "...", "color": "#..."} or null.
+gh api graphql --paginate -F owner="$OWNER" -f query='
+  query($owner: String!, $endCursor: String) {
+    user(login: $owner) {
+      repositories(first: 100, after: $endCursor, ownerAffiliations: OWNER,
+                   privacy: PUBLIC, isFork: false) {
+        nodes { primaryLanguage { name color } }
+        pageInfo { hasNextPage endCursor }
+      }
+    }
+  }' --jq '.data.user.repositories.nodes[] | .primaryLanguage' |
+  python3 "$here/languages_svg.py" "$SVG" "$README"
