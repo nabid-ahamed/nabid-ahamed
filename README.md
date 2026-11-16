@@ -6,13 +6,13 @@
 
 ## 👋 About Me
 
-I'm a **Junior Software Developer at [Databrandix](https://databrandix.com/)**, based in **Dhaka, Bangladesh**.
+I'm a **Jr. Software Engineer at [Databrandix](https://databrandix.com/)**, based in **Dhaka, Bangladesh**.
 
 I build **full-stack web applications**, from React and Next.js interfaces to Node.js and ASP.NET Core backends on PostgreSQL. I care about **clean, readable code**, **thoughtful UI and motion**, and shipping projects that people can actually use.
 
 Right now I'm focused on growing as a full-stack engineer: writing code that's easy to read and change, and using AI tools to build faster without cutting corners.
 
-- 💼 Junior Software Developer at **Databrandix**
+- 💼 Jr. Software Engineer at **Databrandix**
 - 🧩 Full-stack: frontends with **React & Next.js**, backends with **Node.js & ASP.NET Core**
 - 🗄️ Working with **PostgreSQL, Supabase & SQL Server**
 - ⚡ Interested in **real-time apps, e-commerce and business systems**
