@@ -112,9 +112,6 @@ Right now I'm focused on growing as a full-stack engineer: writing code that's e
 </p>
 <!-- LANGUAGES:END -->
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
 ### 🔝 Top Contributed Repo
 <p align="center">
   <img src="./top-repos.svg" alt="Top contributed repositories" width="520"/>
@@ -135,6 +132,9 @@ Right now I'm focused on growing as a full-stack engineer: writing code that's e
 </a>
 <br/>
 <br>
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 <h2 align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> Thanks for visiting my Github Profile. <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h2><br>
 <p align="center">
