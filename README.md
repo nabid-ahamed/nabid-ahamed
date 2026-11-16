@@ -17,6 +17,19 @@
 </p>
 
 
+<!-- LANGUAGES:START -->
+<p align="center"><i>Primary language of my 8 public repositories</i></p>
+
+```mermaid
+pie showData title Languages across my GitHub repos
+    "HTML" : 3
+    "JavaScript" : 2
+    "CSS" : 1
+    "Java" : 1
+    "TypeScript" : 1
+```
+<!-- LANGUAGES:END -->
+
 ### 👉 Software & Tools
  #### <p align='center'>Git, Github, Postman, VsCode, VisualStudio </p>
  
