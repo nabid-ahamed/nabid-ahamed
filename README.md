@@ -12,14 +12,14 @@ I build **full-stack web applications**, from React and Next.js interfaces to No
 
 Right now I'm focused on growing as a full-stack engineer: writing code that's easy to read and change, and using AI tools to build faster without cutting corners.
 
-- 💼 Jr. Software Engineer at **Databrandix**
-- 🧩 Full-stack: frontends with **React & Next.js**, backends with **Node.js & ASP.NET Core**
-- 🗄️ Working with **PostgreSQL, Supabase & SQL Server**
-- ⚡ Interested in **real-time apps, e-commerce and business systems**
-- 🎨 Love polished UI: **smooth animation, 3D and mobile-first design**
-- 🇧🇩 Building products with **Bangla-first users** in mind
-- 🤖 Exploring **AI-assisted software development**
-- 🚀 Always learning and improving
+- Jr. Software Engineer at **Databrandix**
+- Full-stack: frontends with **React & Next.js**, backends with **Node.js & ASP.NET Core**
+- Working with **PostgreSQL, Supabase & SQL Server**
+- Interested in **real-time apps, e-commerce and business systems**
+- Love polished UI: **smooth animation, 3D and mobile-first design**
+- Building products with **Bangla-first users** in mind
+- Exploring **AI-assisted software development**
+- Always learning and improving
 
 🔗 **Portfolio:** [nabidahamed.me](https://nabidahamed.me)
 
