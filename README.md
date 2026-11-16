@@ -4,6 +4,25 @@
 </p>
 
 
+## 👋 About Me
+
+I'm a **Junior Software Developer at [Databrandix](https://databrandix.com/)**, based in **Dhaka, Bangladesh**.
+
+I build **full-stack web applications**, from React and Next.js interfaces to Node.js and ASP.NET Core backends on PostgreSQL. I care about **clean, readable code**, **thoughtful UI and motion**, and shipping projects that people can actually use.
+
+Right now I'm sharpening my skills by building real products and exploring **AI-assisted software development**.
+
+- 💼 Junior Software Developer at **[Databrandix](https://databrandix.com/)**
+- 🌐 Full-stack: **React · Next.js · Node.js · ASP.NET Core · PostgreSQL**
+- 💬 Built **[BroCast](https://github.com/nabid-ahamed/BroCast)**, a real-time team collaboration app (React + Supabase Realtime)
+- 🛍️ Built **[CameliStore](https://cameli-store.vercel.app)**, a full-stack fashion e-commerce store (Express + Neon PostgreSQL)
+- 🇧🇩 Built **[Explore Bangladesh](https://explore-bangladesh-five.vercel.app)**, an immersive travel site (Next.js + Three.js)
+- 🧸 Built **[Toytuni](https://montessori-toy-store.vercel.app)**, a Bangla-first, mobile-first toy store (Next.js)
+- 🏭 Building **[LouietexERP](https://github.com/nabid-ahamed/LouietexERP)**, an internal ERP on ASP.NET Core (.NET 10)
+- 🚀 Always learning and improving
+
+🔗 **Portfolio:** [nabidahamed.me](https://nabidahamed.me)
+
 ## 🌐 Socials:
 
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white&style=for-the-badge)](https://facebook.com/nabid.ahamed.noushad)
