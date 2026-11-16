@@ -124,6 +124,9 @@ Right now I'm focused on growing as a full-stack engineer: writing code that's e
 [![](https://visitcount.itsvg.in/api?id=nabid-ahamed&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<p align="center"> 
+	<a href="#"><img src="https://komarev.com/ghpvc/?username=nabid-ahamed&label=Profile%20views&color=0e75b6&style=plastic" alt="nabid-ahamed" /> </a>
+</p>
 
 ### ⚡ Recent GitHub Activity
 <br/>
@@ -134,6 +137,6 @@ Right now I'm focused on growing as a full-stack engineer: writing code that's e
 <br>
 
 <h2 align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> Thanks for visiting my Github Profile. <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h2><br>
-<p align="center"> 
-	<a href="#"><img src="https://komarev.com/ghpvc/?username=nabid-ahamed&label=Profile%20views&color=0e75b6&style=plastic" alt="nabid-ahamed" /> </a>
+<p align="center">
+  <img src="https://banner-forge.vercel.app/api?type=waving&height=150&color=gradient&section=header" width="150%" alt="header"/>
 </p>
