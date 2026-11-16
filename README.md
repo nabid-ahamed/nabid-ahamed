@@ -116,7 +116,9 @@ Right now I'm focused on growing as a full-stack engineer: writing code that's e
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=nabid-ahamed&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<p align="center">
+  <img src="./top-repos.svg" alt="Top contributed repositories" width="520"/>
+</p>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=nabid-ahamed&icon=0&color=0)](https://visitcount.itsvg.in)
