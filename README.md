@@ -2,7 +2,7 @@
   <img src="./github_cover.gif" alt="Nabid Ahamed Noushad" width="80%">
 </p>
 <p align="center">
-  <img src="https://banner-forge.vercel.app/api?type=waving&height=50&color=gradient&section=header" width="100%" alt="header"/>
+  <img src="https://banner-forge.vercel.app/api?type=waving&height=50&color=gradient&section=header" width="80%" alt="header"/>
 </p>
 
 ## 👋 About Me
