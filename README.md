@@ -10,15 +10,15 @@ I'm a **Junior Software Developer at [Databrandix](https://databrandix.com/)**, 
 
 I build **full-stack web applications**, from React and Next.js interfaces to Node.js and ASP.NET Core backends on PostgreSQL. I care about **clean, readable code**, **thoughtful UI and motion**, and shipping projects that people can actually use.
 
-Right now I'm sharpening my skills by building real products and exploring **AI-assisted software development**.
+Right now I'm focused on growing as a full-stack engineer: writing code that's easy to read and change, and using AI tools to build faster without cutting corners.
 
-- 💼 Junior Software Developer at **[Databrandix](https://databrandix.com/)**
-- 🌐 Full-stack: **React · Next.js · Node.js · ASP.NET Core · PostgreSQL**
-- 💬 Built **[BroCast](https://github.com/nabid-ahamed/BroCast)**, a real-time team collaboration app (React + Supabase Realtime)
-- 🛍️ Built **[CameliStore](https://cameli-store.vercel.app)**, a full-stack fashion e-commerce store (Express + Neon PostgreSQL)
-- 🇧🇩 Built **[Explore Bangladesh](https://explore-bangladesh-five.vercel.app)**, an immersive travel site (Next.js + Three.js)
-- 🧸 Built **[Toytuni](https://montessori-toy-store.vercel.app)**, a Bangla-first, mobile-first toy store (Next.js)
-- 🏭 Building **[LouietexERP](https://github.com/nabid-ahamed/LouietexERP)**, an internal ERP on ASP.NET Core (.NET 10)
+- 💼 Junior Software Developer at **Databrandix**
+- 🧩 Full-stack: frontends with **React & Next.js**, backends with **Node.js & ASP.NET Core**
+- 🗄️ Working with **PostgreSQL, Supabase & SQL Server**
+- ⚡ Interested in **real-time apps, e-commerce and business systems**
+- 🎨 Love polished UI: **smooth animation, 3D and mobile-first design**
+- 🇧🇩 Building products with **Bangla-first users** in mind
+- 🤖 Exploring **AI-assisted software development**
 - 🚀 Always learning and improving
 
 🔗 **Portfolio:** [nabidahamed.me](https://nabidahamed.me)
