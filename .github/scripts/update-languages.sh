@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Redraws languages.svg (a donut chart of primary languages) and makes sure
+# Redraws languages.svg (a pie chart of primary languages) and makes sure
 # README.md shows it between the LANGUAGES markers.
 # Counts the primary language of each public, non-fork repo owned by $OWNER.
 # Needs: gh (authenticated via GH_TOKEN), python3.

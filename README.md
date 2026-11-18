@@ -105,10 +105,10 @@ Right now I'm focused on growing as a full-stack engineer: writing code that's e
   </a>
 </p>
 
-
+### 💻 Languages I Use
 <!-- LANGUAGES:START -->
 <p align="center">
-  <img src="./languages.svg" alt="Primary languages across my GitHub repositories" width="520"/>
+  <img src="./languages.svg" alt="Primary languages across my GitHub repositories" width="100%"/>
 </p>
 <!-- LANGUAGES:END -->
 
