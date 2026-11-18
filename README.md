@@ -105,11 +105,19 @@ Right now I'm focused on growing as a full-stack engineer: writing code that's e
   </a>
 </p>
 
-### 💻 Languages I Use
+## 🥧 Languages I Use
+
 <!-- LANGUAGES:START -->
-<p align="center">
-  <img src="./languages.svg" alt="Primary languages across my GitHub repositories" width="100%"/>
-</p>
+<p align="center"><i>Primary language of my 9 public repositories</i></p>
+
+```mermaid
+pie showData title Languages across my GitHub repos
+    "HTML" : 3
+    "JavaScript" : 2
+    "TypeScript" : 2
+    "CSS" : 1
+    "Java" : 1
+```
 <!-- LANGUAGES:END -->
 
 ### 🔝 Top Contributed Repo

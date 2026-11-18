@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Redraw languages.svg
+      - name: Rebuild the language chart in README.md
         env:
           GH_TOKEN: ${{ github.token }}
           OWNER: ${{ github.repository_owner }}
@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md languages.svg top-repos.svg
+          git add README.md top-repos.svg
           if git diff --cached --quiet; then
             echo "No changes."
           else
